@@ -65,7 +65,13 @@ grade.
 
 Classes:
 MachinePlayer
-Board - 2d array J Lin
+  
+Board - 2d array J Lin + J Naulty
+  boolean isLegalMove(Move x)
+  int[] validMoves(Board x)
+  int[] connections(Piece x)
+  boolean hasNetwork(Board x) D Ho
+  int evaluation(Board x)
 Move(already implemented)
 MoveScore extends Move - keeps track of score of move J Lin
 
@@ -77,9 +83,7 @@ Move chooseMove()
 boolean opponentMove()
 forceMove()
 
-boolean isLegalMove(Move x)
-int[] validMoves(Board x)
-int[] connections(Piece x)
-boolean completeNetwork(Board x) D Ho
-int evaluation(Board x)
+
+
+
 

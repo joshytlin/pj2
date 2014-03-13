@@ -46,9 +46,21 @@ public void countChip(int x, int y, int color) {
 	misterBoard[x][y] = color;
 }
 
+//creates a copy of the original Board
+public Board copy() {
+	
+}
+
 //returns total number of chips on current board
 public int totalChips() {
 	return blackChips + whiteChips;
+}
+
+
+
+
+public boolean isValid(int x, int y) {
+	
 }
 	
 }
